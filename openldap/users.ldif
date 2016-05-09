@@ -1,0 +1,30 @@
+dn: uid=maxm,ou=users,dc=meldrum,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+givenName: Max Meldrum
+sn: User
+mail: max@meldrum.se
+uid: maxm
+userPassword: {crypt}x
+cn: max
+
+dn: uid=dev1,ou=users,dc=meldrum,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+givenName: Developer1
+sn: User
+mail: developer1@meldrum.se
+uid: dev1
+userPassword: {crypt}x
+cn: dev1
+
+
+dn: uid=dev2,ou=users,dc=meldrum,dc=com
+objectclass: inetOrgPerson
+objectclass: person
+givenName: Developer2
+sn: User
+mail: developer2@meldrum.se
+uid: dev2
+userPassword: {crypt}x
+cn: dev2
